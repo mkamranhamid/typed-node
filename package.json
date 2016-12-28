@@ -5,16 +5,16 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "tsc app.ts && node app"
+    "start": "tsc app && node app"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "angular": "^1.4.8",
-    "angular-ui-router": "^1.0.0-alpha0",
+    "angularfire": "^2.2.0",
     "body-parser": "^1.14.2",
     "express": "^4.13.3",
-    "mongoose": "^4.3.4",
-    "path": "^0.12.7"
+    "firebase-admin": "^4.0.4",
+    "path": "^0.12.7",
+    "promise": "^7.1.1"
   }
 }
