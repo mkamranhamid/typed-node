@@ -5,3 +5,11 @@ nodejs written in typescript
 - npm install
 - npm start
 - your server is running on localhost:3000
+
+
+
+- tsc -p .
+to create build folder
+
+- tsc -w
+to watch
